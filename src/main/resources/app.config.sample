@@ -1,0 +1,20 @@
+twitter {
+    api {
+        key = "API_KEY"
+        secret = "API_SECRET"
+    }
+    access {
+        token = "ACCESS_TOKEN"
+        secret = "ACCESS_TOKEN_SECRET"
+    }
+}
+email {
+    recipient = "RECIPIENT_EMAIL_ADDRESS"
+    sender = "SENDER_EMAIL_ADDRESS"
+    smtp {
+        host = "SMTP_HOST"
+        port = SMTP_PORT
+        user = "SMTP_USERNAME"
+        password = "SMTP_PASSWORD"
+    }
+}
